@@ -1,0 +1,48 @@
+section .social-media img {
+    height: 24px;
+}
+
+.social-media li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact .container {
+    display: block;
+}
+
+form input,
+form textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+button {
+    font-size: 1.1em;
+    height: 70px;
+    background-color: var(--header-bg);
+    color: var(--text-header);
+    font-weight: bolder;
+    cursor: pointer;
+    outline-color: var(--text-header);
+    transition: .2s;
+}
+
+button:hover {
+    transform: translateY(2px);
+    background-color: #414040;
+}

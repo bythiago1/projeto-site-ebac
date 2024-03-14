@@ -1,0 +1,31 @@
+header {
+    padding: 16px 0;
+    display: flex;
+    background-color: var(--header-bg);
+    color: var(--text-header);
+}
+
+header nav li {
+    display: inline;
+}
+
+header li a {
+    color: var(--text-main);
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
